@@ -1,0 +1,183 @@
+{
+  "name": "DiabeticLedger",
+  "tagline": "the real defendable truth",
+  "generated": "2026-06-20",
+  "chain_ok": true,
+  "count": 14,
+  "totals": {
+    "donated_usd": 1002750,
+    "earned_usd": 8820,
+    "given_usd": 680,
+    "jobs_paid_usd": 50,
+    "donations": 4,
+    "assets": 2,
+    "gives": 4,
+    "jobs": 1
+  },
+  "receipts": [
+    {
+      "seq": 0,
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "kind": "donation",
+      "date": "2026-06-20",
+      "donor": "Donovan",
+      "form": "compute",
+      "item": "RTX 6000 fleet (8 rigs)",
+      "value_usd": 1000000,
+      "note": "the engine room",
+      "hash": "3b5a081b2d1cde36fc6fe9f8b938638ccb4a0b4b721a95d9b1a83a8ce1a4fcd2"
+    },
+    {
+      "seq": 1,
+      "prev_hash": "3b5a081b2d1cde36fc6fe9f8b938638ccb4a0b4b721a95d9b1a83a8ce1a4fcd2",
+      "kind": "donation",
+      "date": "2026-06-20",
+      "donor": "Frank",
+      "form": "compute",
+      "item": "RTX 5090",
+      "value_usd": 2000,
+      "note": "hosts at home, no strings",
+      "hash": "413736a82e34a36d94068786a5876a4305ae362573fa93e22d521535711ae72f"
+    },
+    {
+      "seq": 2,
+      "prev_hash": "413736a82e34a36d94068786a5876a4305ae362573fa93e22d521535711ae72f",
+      "kind": "donation",
+      "date": "2026-06-20",
+      "donor": "Anonymous",
+      "form": "device",
+      "item": "Apple Watch",
+      "value_usd": 250,
+      "note": "for a LocalDiabetic user",
+      "hash": "06e524dc4d5b170e649068482f0fbd6696a181316b2704f959a8c542aa203fc6"
+    },
+    {
+      "seq": 3,
+      "prev_hash": "06e524dc4d5b170e649068482f0fbd6696a181316b2704f959a8c542aa203fc6",
+      "kind": "donation",
+      "date": "2026-06-20",
+      "donor": "Grace",
+      "form": "cash",
+      "item": "cash gift",
+      "value_usd": 500,
+      "note": "buy what is needed",
+      "hash": "b107e3ddca617e588f4b5b4594290504f7fdaf4b55ed0154264479334a27853f"
+    },
+    {
+      "seq": 4,
+      "prev_hash": "b107e3ddca617e588f4b5b4594290504f7fdaf4b55ed0154264479334a27853f",
+      "kind": "asset",
+      "date": "2026-06-20",
+      "asset_id": "rtx6000-fleet",
+      "from_donation": 0,
+      "asset_type": "gpu-fleet",
+      "hosted_by": "Donovan",
+      "location": "sovereign rack",
+      "hash": "897415bc5fb039a75e4480b5a12a30febe4a70cb3029ebaac0f4ab53338f11ae"
+    },
+    {
+      "seq": 5,
+      "prev_hash": "897415bc5fb039a75e4480b5a12a30febe4a70cb3029ebaac0f4ab53338f11ae",
+      "kind": "asset",
+      "date": "2026-06-20",
+      "asset_id": "frank-5090",
+      "from_donation": 1,
+      "asset_type": "gpu",
+      "hosted_by": "Frank",
+      "location": "Frank's home",
+      "hash": "2dbab123b509c66bd793267b5b702669235346ab313c0c9e287b57fe7ac4456c"
+    },
+    {
+      "seq": 6,
+      "prev_hash": "2dbab123b509c66bd793267b5b702669235346ab313c0c9e287b57fe7ac4456c",
+      "kind": "income",
+      "date": "2026-06-20",
+      "asset_id": "rtx6000-fleet",
+      "source": "research lab (model fine-tune)",
+      "amount_usd": 8400,
+      "period": "month 1",
+      "hash": "1b74d7a7e1fcb67a5912134a947244ef2fc5d51e29cf3ad6f5bc2447c2a32f0e"
+    },
+    {
+      "seq": 7,
+      "prev_hash": "1b74d7a7e1fcb67a5912134a947244ef2fc5d51e29cf3ad6f5bc2447c2a32f0e",
+      "kind": "income",
+      "date": "2026-06-20",
+      "asset_id": "frank-5090",
+      "source": "indie dev (model hosting)",
+      "amount_usd": 120,
+      "period": "year 1",
+      "hash": "9808724372c02ec7b7776bd6527edee738fcfc0a703189a2806626f4a7bc4073"
+    },
+    {
+      "seq": 8,
+      "prev_hash": "9808724372c02ec7b7776bd6527edee738fcfc0a703189a2806626f4a7bc4073",
+      "kind": "income",
+      "date": "2026-06-20",
+      "asset_id": "frank-5090",
+      "source": "Joe's brother law firm (compute eval)",
+      "amount_usd": 300,
+      "period": "light-lift, for a fee",
+      "hash": "f00123c43e56832d5bd71f423bb137d822ad858e0203f5ef160d84a241db49ed"
+    },
+    {
+      "seq": 9,
+      "prev_hash": "f00123c43e56832d5bd71f423bb137d822ad858e0203f5ef160d84a241db49ed",
+      "kind": "give",
+      "date": "2026-06-20",
+      "recipient": "Mary",
+      "need": "Synology NAS (her vault)",
+      "value_usd": 400,
+      "funded_from": "income",
+      "fulfilled_by": "OpenDiabetic",
+      "hash": "352a500e76c9cd2f6a529e97457e5ac235642b1e638ff089214605cd954b76bf"
+    },
+    {
+      "seq": 10,
+      "prev_hash": "352a500e76c9cd2f6a529e97457e5ac235642b1e638ff089214605cd954b76bf",
+      "kind": "give",
+      "date": "2026-06-20",
+      "recipient": "Jane",
+      "need": "Apple Watch (her reminders)",
+      "value_usd": 250,
+      "funded_from": "donation",
+      "fulfilled_by": "OpenDiabetic",
+      "hash": "37d5c3459766cd343db7f85f10e4e11931549a65ced3b3ce7f7e396da3683ebe"
+    },
+    {
+      "seq": 11,
+      "prev_hash": "37d5c3459766cd343db7f85f10e4e11931549a65ced3b3ce7f7e396da3683ebe",
+      "kind": "give",
+      "date": "2026-06-20",
+      "recipient": "Joe's dad",
+      "need": "diabetic cookbook + diet",
+      "value_usd": 30,
+      "funded_from": "income",
+      "fulfilled_by": "OpenDiabetic",
+      "hash": "c8d2edc6e22dc46eba6a44bd67a14ee08e085f1e0eb7ae0b1af66bc8ea0a1c0a"
+    },
+    {
+      "seq": 12,
+      "prev_hash": "c8d2edc6e22dc46eba6a44bd67a14ee08e085f1e0eb7ae0b1af66bc8ea0a1c0a",
+      "kind": "give",
+      "date": "2026-06-20",
+      "recipient": "restaurant owner",
+      "need": "website",
+      "value_usd": 0,
+      "funded_from": "in-kind",
+      "fulfilled_by": "Frank",
+      "hash": "190f8f494b4af90dc1f2a428b21b6e32093059fc68fa6bfff15845dc55f693a5"
+    },
+    {
+      "seq": 13,
+      "prev_hash": "190f8f494b4af90dc1f2a428b21b6e32093059fc68fa6bfff15845dc55f693a5",
+      "kind": "job",
+      "date": "2026-06-20",
+      "worker": "Joe",
+      "task": "set up Mary's NAS (she is 75)",
+      "pay_usd": 50,
+      "for_give": 8,
+      "hash": "f256f8f1fea79193a34700f905526427951de6cc053f746e4403b51c0b85a8b0"
+    }
+  ]
+}

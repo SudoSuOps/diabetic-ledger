@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DiabeticLedger — the real defendable truth</title>
+<meta name="description" content="The public, hash-chained giving ledger for OpenDiabetic & LocalDiabetic. Follow every dollar: donation → hosted rig → income → give → job. Verify it yourself.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Diabetic<span>Ledger</span></h1>
+    <p class="tag">the real defendable truth</p>
+    <p class="lede">Every dollar, end to end — <b>donation → hosted rig → income → give → job</b>.
+       Nothing hidden. No vanity metrics. The chain below is tamper-evident, and you don't
+       have to take our word for it: <b>your browser verifies it itself.</b></p>
+  </div>
+</header>
+
+<section class="wrap" id="verify-banner">
+  <div id="chainstate" class="chainstate checking">checking the chain…</div>
+  <button id="reverify">Verify it yourself →</button>
+  <span class="muted">recomputes every SHA-256 link, in your browser, against the published receipts</span>
+</section>
+
+<section class="wrap totals" id="totals"></section>
+
+<section class="wrap">
+  <h2>The chain</h2>
+  <p class="muted">Each card is one receipt. The hash of each links to the one before it —
+     change a single character anywhere and the chain breaks. No PHI ever appears here;
+     this is the money layer, not the health layer.</p>
+  <div id="chain"></div>
+</section>
+
+<footer class="wrap">
+  <p>OpenDiabetic is the hive · LocalDiabetic is the healers · <b>DiabeticLedger is the proof.</b></p>
+  <p class="muted">Give people what they need, not what you have. The compute earns income; the net comes back to the people.
+     <a href="https://github.com/SudoSuOps/diabetic-ledger">source + raw ledger on GitHub</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
