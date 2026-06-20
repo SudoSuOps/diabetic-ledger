@@ -50,3 +50,5 @@ h2{margin:34px 0 6px}
 .rec.give{border-left-color:var(--gold)} .rec.give .kind{color:var(--gold)}
 .rec.job{border-left-color:#ff9d57} .rec.job .kind{color:#ff9d57}
 footer{border-top:1px solid var(--line);padding:24px 20px 60px;margin-top:20px}
+
+.bee{font-size:1.4em;line-height:1;margin-right:.15em;vertical-align:-.05em}
