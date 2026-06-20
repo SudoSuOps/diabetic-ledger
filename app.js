@@ -96,10 +96,25 @@ if (typeof document !== "undefined") {
     else { el.className = "chainstate bad"; el.textContent = `✗ chain BROKEN at receipt #${brokenAt} — tampering detected`; }
   }
 
+  // Single source of truth = the hive's giving ledger (live). If the hive is
+  // unreachable, fall back to the committed snapshot so the proof is always up.
+  const HIVE = "https://hive.opendiabetic.com/api/giving";
+  async function loadLedger() {
+    try {
+      const r = await fetch(HIVE, { cache: "no-store" });
+      if (r.ok) { const d = await r.json(); if (Array.isArray(d.receipts)) return { ...d, source: "live" }; }
+    } catch (e) { /* fall through to snapshot */ }
+    const d = await (await fetch("ledger.json", { cache: "no-store" })).json();
+    return { ...d, source: "snapshot" };
+  }
   async function init() {
-    const data = await (await fetch("ledger.json", { cache: "no-store" })).json();
+    const data = await loadLedger();
     renderTotals(data.totals);
     renderChain(data.receipts, null);
+    const src = $("#source");
+    if (src) src.textContent = data.source === "live"
+      ? "live from the hive · hive.opendiabetic.com"
+      : "from the last published snapshot";
     $("#reverify").addEventListener("click", () => runVerify(data.receipts));
     runVerify(data.receipts);
   }

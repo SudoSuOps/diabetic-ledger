@@ -2,6 +2,7 @@
   "name": "DiabeticLedger",
   "tagline": "the real defendable truth",
   "generated": "2026-06-20",
+  "source": "hive snapshot",
   "chain_ok": true,
   "count": 14,
   "totals": {
@@ -24,36 +25,36 @@
       "form": "compute",
       "item": "RTX 6000 fleet (8 rigs)",
       "value_usd": 1000000,
-      "note": "the engine room",
-      "hash": "3b5a081b2d1cde36fc6fe9f8b938638ccb4a0b4b721a95d9b1a83a8ce1a4fcd2"
+      "note": "genesis gift",
+      "hash": "9b0072dfd2a954e1683b042d163657c5b05beacf96fc0f4d90f74230210890c5"
     },
     {
       "seq": 1,
-      "prev_hash": "3b5a081b2d1cde36fc6fe9f8b938638ccb4a0b4b721a95d9b1a83a8ce1a4fcd2",
+      "prev_hash": "9b0072dfd2a954e1683b042d163657c5b05beacf96fc0f4d90f74230210890c5",
       "kind": "donation",
       "date": "2026-06-20",
       "donor": "Frank",
       "form": "compute",
       "item": "RTX 5090",
       "value_usd": 2000,
-      "note": "hosts at home, no strings",
-      "hash": "413736a82e34a36d94068786a5876a4305ae362573fa93e22d521535711ae72f"
+      "note": "hosts at home",
+      "hash": "6d6fd54c64fb1a84222cff3f01bb6bcdc56f54598890dbf816e2c6639e393cd4"
     },
     {
       "seq": 2,
-      "prev_hash": "413736a82e34a36d94068786a5876a4305ae362573fa93e22d521535711ae72f",
+      "prev_hash": "6d6fd54c64fb1a84222cff3f01bb6bcdc56f54598890dbf816e2c6639e393cd4",
       "kind": "donation",
       "date": "2026-06-20",
       "donor": "Anonymous",
       "form": "device",
       "item": "Apple Watch",
       "value_usd": 250,
-      "note": "for a LocalDiabetic user",
-      "hash": "06e524dc4d5b170e649068482f0fbd6696a181316b2704f959a8c542aa203fc6"
+      "note": "for a member",
+      "hash": "c55492c8c79a9c39248bbf65a425f1b0e1724d598d2f277e0e958d3a6f9cb70c"
     },
     {
       "seq": 3,
-      "prev_hash": "06e524dc4d5b170e649068482f0fbd6696a181316b2704f959a8c542aa203fc6",
+      "prev_hash": "c55492c8c79a9c39248bbf65a425f1b0e1724d598d2f277e0e958d3a6f9cb70c",
       "kind": "donation",
       "date": "2026-06-20",
       "donor": "Grace",
@@ -61,11 +62,11 @@
       "item": "cash gift",
       "value_usd": 500,
       "note": "buy what is needed",
-      "hash": "b107e3ddca617e588f4b5b4594290504f7fdaf4b55ed0154264479334a27853f"
+      "hash": "ba12b706c5772a1aae70ed5eee3cd28f9fb96ef3f37a8b517c2a8a9e4e4ff766"
     },
     {
       "seq": 4,
-      "prev_hash": "b107e3ddca617e588f4b5b4594290504f7fdaf4b55ed0154264479334a27853f",
+      "prev_hash": "ba12b706c5772a1aae70ed5eee3cd28f9fb96ef3f37a8b517c2a8a9e4e4ff766",
       "kind": "asset",
       "date": "2026-06-20",
       "asset_id": "rtx6000-fleet",
@@ -73,56 +74,56 @@
       "asset_type": "gpu-fleet",
       "hosted_by": "Donovan",
       "location": "sovereign rack",
-      "hash": "897415bc5fb039a75e4480b5a12a30febe4a70cb3029ebaac0f4ab53338f11ae"
+      "hash": "71e71ec84d16058def7f8f372f70f611662a1dd463512c0775dffbd2714d01bf"
     },
     {
       "seq": 5,
-      "prev_hash": "897415bc5fb039a75e4480b5a12a30febe4a70cb3029ebaac0f4ab53338f11ae",
+      "prev_hash": "71e71ec84d16058def7f8f372f70f611662a1dd463512c0775dffbd2714d01bf",
       "kind": "asset",
       "date": "2026-06-20",
       "asset_id": "frank-5090",
       "from_donation": 1,
       "asset_type": "gpu",
       "hosted_by": "Frank",
-      "location": "Frank's home",
-      "hash": "2dbab123b509c66bd793267b5b702669235346ab313c0c9e287b57fe7ac4456c"
+      "location": "Franks home",
+      "hash": "6aac12a2fa211281c27c36cc310bf64ea066b7e12f2900235e38aaff09c553f7"
     },
     {
       "seq": 6,
-      "prev_hash": "2dbab123b509c66bd793267b5b702669235346ab313c0c9e287b57fe7ac4456c",
+      "prev_hash": "6aac12a2fa211281c27c36cc310bf64ea066b7e12f2900235e38aaff09c553f7",
       "kind": "income",
       "date": "2026-06-20",
       "asset_id": "rtx6000-fleet",
-      "source": "research lab (model fine-tune)",
+      "source": "research lab (fine-tune)",
       "amount_usd": 8400,
       "period": "month 1",
-      "hash": "1b74d7a7e1fcb67a5912134a947244ef2fc5d51e29cf3ad6f5bc2447c2a32f0e"
+      "hash": "26708e147f7478ae0b2d9368c69485e69b4fb649badab7a5a55b971bed390ad5"
     },
     {
       "seq": 7,
-      "prev_hash": "1b74d7a7e1fcb67a5912134a947244ef2fc5d51e29cf3ad6f5bc2447c2a32f0e",
+      "prev_hash": "26708e147f7478ae0b2d9368c69485e69b4fb649badab7a5a55b971bed390ad5",
       "kind": "income",
       "date": "2026-06-20",
       "asset_id": "frank-5090",
       "source": "indie dev (model hosting)",
       "amount_usd": 120,
       "period": "year 1",
-      "hash": "9808724372c02ec7b7776bd6527edee738fcfc0a703189a2806626f4a7bc4073"
+      "hash": "100c0ef319baf000b4d2ccae916aa16546416fca6adc665c4509fbb32655c38e"
     },
     {
       "seq": 8,
-      "prev_hash": "9808724372c02ec7b7776bd6527edee738fcfc0a703189a2806626f4a7bc4073",
+      "prev_hash": "100c0ef319baf000b4d2ccae916aa16546416fca6adc665c4509fbb32655c38e",
       "kind": "income",
       "date": "2026-06-20",
       "asset_id": "frank-5090",
-      "source": "Joe's brother law firm (compute eval)",
+      "source": "a law firm (compute eval)",
       "amount_usd": 300,
-      "period": "light-lift, for a fee",
-      "hash": "f00123c43e56832d5bd71f423bb137d822ad858e0203f5ef160d84a241db49ed"
+      "period": "for a fee",
+      "hash": "8c700f753b4cafe221e18d3b344f91689f329e4b0f71bdea1b87edb50cb3a204"
     },
     {
       "seq": 9,
-      "prev_hash": "f00123c43e56832d5bd71f423bb137d822ad858e0203f5ef160d84a241db49ed",
+      "prev_hash": "8c700f753b4cafe221e18d3b344f91689f329e4b0f71bdea1b87edb50cb3a204",
       "kind": "give",
       "date": "2026-06-20",
       "recipient": "Mary",
@@ -130,35 +131,35 @@
       "value_usd": 400,
       "funded_from": "income",
       "fulfilled_by": "OpenDiabetic",
-      "hash": "352a500e76c9cd2f6a529e97457e5ac235642b1e638ff089214605cd954b76bf"
+      "hash": "a0461fccf51f8d2b3a5d5ea730b7da86fdf25d1625f533312da45f44640bd587"
     },
     {
       "seq": 10,
-      "prev_hash": "352a500e76c9cd2f6a529e97457e5ac235642b1e638ff089214605cd954b76bf",
+      "prev_hash": "a0461fccf51f8d2b3a5d5ea730b7da86fdf25d1625f533312da45f44640bd587",
       "kind": "give",
       "date": "2026-06-20",
       "recipient": "Jane",
-      "need": "Apple Watch (her reminders)",
+      "need": "Apple Watch (reminders)",
       "value_usd": 250,
       "funded_from": "donation",
       "fulfilled_by": "OpenDiabetic",
-      "hash": "37d5c3459766cd343db7f85f10e4e11931549a65ced3b3ce7f7e396da3683ebe"
+      "hash": "631df258db477c2f955fbcbc908d2141b3dfdd8276e65eeaaa1855475db89cbd"
     },
     {
       "seq": 11,
-      "prev_hash": "37d5c3459766cd343db7f85f10e4e11931549a65ced3b3ce7f7e396da3683ebe",
+      "prev_hash": "631df258db477c2f955fbcbc908d2141b3dfdd8276e65eeaaa1855475db89cbd",
       "kind": "give",
       "date": "2026-06-20",
-      "recipient": "Joe's dad",
+      "recipient": "Joes dad",
       "need": "diabetic cookbook + diet",
       "value_usd": 30,
       "funded_from": "income",
       "fulfilled_by": "OpenDiabetic",
-      "hash": "c8d2edc6e22dc46eba6a44bd67a14ee08e085f1e0eb7ae0b1af66bc8ea0a1c0a"
+      "hash": "41bc75eb9e623b81ca688bf759255b9e87c19f54dd9ef1718031f51708893c38"
     },
     {
       "seq": 12,
-      "prev_hash": "c8d2edc6e22dc46eba6a44bd67a14ee08e085f1e0eb7ae0b1af66bc8ea0a1c0a",
+      "prev_hash": "41bc75eb9e623b81ca688bf759255b9e87c19f54dd9ef1718031f51708893c38",
       "kind": "give",
       "date": "2026-06-20",
       "recipient": "restaurant owner",
@@ -166,18 +167,17 @@
       "value_usd": 0,
       "funded_from": "in-kind",
       "fulfilled_by": "Frank",
-      "hash": "190f8f494b4af90dc1f2a428b21b6e32093059fc68fa6bfff15845dc55f693a5"
+      "hash": "c8596eef3c96236a4af435c6ad0d99aaaa840bfc0c34735f5931bde748592b0a"
     },
     {
       "seq": 13,
-      "prev_hash": "190f8f494b4af90dc1f2a428b21b6e32093059fc68fa6bfff15845dc55f693a5",
+      "prev_hash": "c8596eef3c96236a4af435c6ad0d99aaaa840bfc0c34735f5931bde748592b0a",
       "kind": "job",
       "date": "2026-06-20",
       "worker": "Joe",
-      "task": "set up Mary's NAS (she is 75)",
+      "task": "set up Marys NAS (she is 75)",
       "pay_usd": 50,
-      "for_give": 8,
-      "hash": "f256f8f1fea79193a34700f905526427951de6cc053f746e4403b51c0b85a8b0"
+      "hash": "807907162fd8d0febf2ebc9ac0b6e4caaa7f0f8665a343a80e56d4ff7cae939f"
     }
   ]
 }
