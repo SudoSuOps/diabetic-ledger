@@ -3,45 +3,145 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DiabeticLedger — the real defendable truth</title>
+<title>DiabeticLedger — watch every dollar, verify it yourself</title>
+<meta name="description" content="The public, hash-chained giving ledger for OpenDiabetic & LocalDiabetic. Follow every dollar end to end — donation → hosted rig → income → give → job. Non-PHI receipts only. Your own browser recomputes every SHA-256 link.">
 <link rel="icon" href="assets/bee.svg" type="image/svg+xml">
-<meta name="description" content="The public, hash-chained giving ledger for OpenDiabetic & LocalDiabetic. Follow every dollar: donation → hosted rig → income → give → job. Verify it yourself.">
+<link rel="canonical" href="https://diabeticledger.com/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0B0F14">
+<meta name="author" content="OpenDiabetic">
+<meta name="keywords" content="giving ledger, hash-chained receipts, browser verified ledger, diabetic charity transparency, proof of execution, donate compute, non-PHI receipts, tamper-evident ledger">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DiabeticLedger">
+<meta property="og:url" content="https://diabeticledger.com/">
+<meta property="og:title" content="DiabeticLedger — watch every dollar, verify it yourself">
+<meta property="og:description" content="The public, hash-chained giving ledger of OpenDiabetic. Follow every dollar from donation to give. Your own browser recomputes every SHA-256 link — trust no one, verify it.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@opendiabetics">
+<meta name="twitter:title" content="DiabeticLedger — watch every dollar, verify it yourself">
+<meta name="twitter:description" content="The public, hash-chained giving ledger of OpenDiabetic. Your own browser recomputes every SHA-256 link — verify it yourself.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization"],
+      "@id": "https://diabeticledger.com/#org",
+      "name": "DiabeticLedger",
+      "url": "https://diabeticledger.com",
+      "logo": "https://diabeticledger.com/assets/bee.svg",
+      "description": "The public, hash-chained giving ledger of OpenDiabetic — every donation, dollar earned, give and job recorded as a tamper-evident receipt that anyone can recompute and verify in their own browser. Non-PHI only.",
+      "slogan": "Watch every dollar. Verify it yourself.",
+      "email": "build@opendiabetic.com",
+      "telephone": "+1-561-532-7120",
+      "address": { "@type": "PostalAddress", "addressLocality": "Jupiter", "addressRegion": "FL", "addressCountry": "US" },
+      "sameAs": ["https://x.com/opendiabetics", "https://opendiabetic.com", "https://diabeticdocs.com", "https://diabeticnode.com", "https://diabeticdatasets.com", "https://diabeticmodels.com", "https://diabetictruth.org", "https://diabeticdonation.com", "https://localdiabetic.com", "https://github.com/SudoSuOps/diabetic-ledger"],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Swarm and Bee LLC",
+        "legalName": "Swarm and Bee LLC",
+        "alternateName": "Swarm & Bee AI",
+        "address": { "@type": "PostalAddress", "addressRegion": "FL", "addressCountry": "US" },
+        "identifier": [
+          { "@type": "PropertyValue", "propertyID": "SAM UEI", "value": "L9EXVH9L9VU6" },
+          { "@type": "PropertyValue", "propertyID": "CAGE", "value": "20YM3" },
+          { "@type": "PropertyValue", "propertyID": "DUNS", "value": "138652395" }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://diabeticledger.com/#website",
+      "url": "https://diabeticledger.com",
+      "name": "DiabeticLedger",
+      "description": "The public, browser-verified giving ledger of OpenDiabetic.",
+      "publisher": { "@id": "https://diabeticledger.com/#org" },
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <h1><span class="bee" aria-hidden="true">🐝</span> Diabetic<span>Ledger</span></h1>
-    <p class="tag">the real defendable truth</p>
-    <p class="lede">Every dollar, end to end — <b>donation → hosted rig → income → give → job</b>.
-       Nothing hidden. No vanity metrics. The chain below is tamper-evident, and you don't
-       have to take our word for it: <b>your browser verifies it itself.</b></p>
-  </div>
+
+<header class="nav">
+  <a class="brand" href="/"><span class="bee" aria-hidden="true">🐝</span><span>Diabetic<b>Ledger</b></span></a>
+  <nav>
+    <a href="#verify-banner">Verify</a>
+    <a href="#totals">Totals</a>
+    <a href="#chain-section">The chain</a>
+    <a class="btn ghost" href="https://opendiabetic.com">The hive →</a>
+  </nav>
 </header>
 
-<section class="wrap" id="verify-banner">
-  <div id="chainstate" class="chainstate checking">checking the chain…</div>
-  <button id="reverify">Verify it yourself →</button>
-  <span class="muted">recomputes every SHA-256 link, in your browser, against the receipts</span>
-  <span id="source" class="muted" style="font-style:italic"></span>
+<section class="hero">
+  <div class="wrap">
+    <p class="micro">🐝 The proof surface of OpenDiabetic</p>
+    <h1>Watch every dollar.<br><span>Verify it yourself.</span></h1>
+    <p class="lede">DiabeticLedger follows every dollar end to end —
+       <b>donation → hosted rig → income → give → job</b>. Nothing hidden, no vanity metrics.
+       The chain below is tamper-evident, and you don't have to take our word for it:
+       <b>your own browser recomputes every link.</b></p>
+    <div class="cta">
+      <a class="btn" href="#chain-section">See the chain</a>
+      <a class="btn ghost" href="https://github.com/SudoSuOps/diabetic-ledger">Source + raw ledger →</a>
+    </div>
+    <p class="micro">No PHI ever · this is the money layer, not the health layer</p>
+  </div>
 </section>
 
-<section class="wrap totals" id="totals"></section>
-
-<section class="wrap">
-  <h2>The chain</h2>
-  <p class="muted">Each card is one receipt. The hash of each links to the one before it —
-     change a single character anywhere and the chain breaks. No PHI ever appears here;
-     this is the money layer, not the health layer.</p>
-  <div id="chain"></div>
+<section class="band" id="verify-banner">
+  <div class="wrap verifyrow">
+    <div id="chainstate" class="chainstate checking">checking the chain…</div>
+    <button id="reverify">Verify it yourself →</button>
+    <span class="vmuted">recomputes every SHA-256 link, in your browser, against the receipts</span>
+    <span id="source" class="vmuted src-tag"></span>
+  </div>
 </section>
 
-<footer class="wrap">
-  <p>OpenDiabetic is the hive · LocalDiabetic is the healers · <b>DiabeticLedger is the proof.</b></p>
-  <p class="muted">Give people what they need, not what you have. The compute earns income; the net comes back to the people.
-     <a href="https://github.com/SudoSuOps/diabetic-ledger">source + raw ledger on GitHub</a></p>
-  <p class="muted">HQ · Jupiter, Florida · <a href="tel:+15615327120">561.532.7120</a> ·
-     <a href="https://x.com/opendiabetics">@opendiabetics</a></p>
+<section class="wrap section totals-section">
+  <h2>The running totals</h2>
+  <p class="sub">Live from the hive when it's reachable, otherwise the last published snapshot —
+     either way, every number traces to a receipt below.</p>
+  <div class="totals" id="totals"></div>
+</section>
+
+<section id="chain-section" class="section dark">
+  <div class="wrap">
+    <h2>The chain</h2>
+    <p class="sub">Each card is one receipt. The hash of each links to the one before it —
+       change a single character anywhere and the chain breaks. No PHI ever appears here;
+       this is the money layer, not the health layer.</p>
+    <div id="chain"></div>
+    <p class="line">This is the anti-rug-pull. <b>We are math and code</b> — re-run the verifier above and
+       confirm every SHA-256 link for yourself. The compute earns income; the net comes back to the people.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="fbrand"><span class="bee" aria-hidden="true">🐝</span> Diabetic<b>Ledger</b></p>
+    <p>OpenDiabetic is the hive · LocalDiabetic is the healers · <b>DiabeticLedger is the proof.</b></p>
+    <p class="links">
+      <a href="https://opendiabetic.com">OpenDiabetic</a> ·
+      <a href="https://diabeticdocs.com">DiabeticDocs</a> ·
+      <a href="https://diabeticnode.com">DiabeticNode</a> ·
+      <a href="https://diabeticdatasets.com">DiabeticDatasets</a> ·
+      <a href="https://diabeticmodels.com">DiabeticModels</a> ·
+      <a href="https://diabetictruth.org">DiabeticTruth</a> ·
+      <a href="https://diabeticledger.com">DiabeticLedger</a> ·
+      <a href="https://diabeticdonation.com">DiabeticDonation</a> ·
+      <a href="https://localdiabetic.com">LocalDiabetic</a>
+    </p>
+    <p class="contact"><a href="mailto:build@opendiabetic.com">build@opendiabetic.com</a> ·
+      HQ · Jupiter, Florida · <a href="tel:+15615327120">561.532.7120</a> ·
+      <a href="https://x.com/opendiabetics" rel="me">@opendiabetics</a></p>
+    <p class="motto">Give people what they need, not what you have. We are math and code.</p>
+    <p class="legal">Owned &amp; operated by <b>Swarm and Bee LLC</b> · DBA Swarm &amp; Bee AI · Florida / UEI L9EXVH9L9VU6 · CAGE 20YM3 · D-U-N-S 138652395 · Registered &amp; active in SAM.gov<br>
+      &copy; 2026 DefendableOS · Proof of Execution.</p>
+  </div>
 </footer>
 
 <script src="app.js"></script>

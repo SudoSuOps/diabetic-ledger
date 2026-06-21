@@ -1,0 +1,33 @@
+# DiabeticLedger
+
+> DiabeticLedger is the public, hash-chained giving ledger of OpenDiabetic — the proof surface. It follows every dollar end to end (donation → hosted rig → income → give → job) as tamper-evident receipts. Anyone can recompute and verify every SHA-256 link in their own browser. It holds NON-PHI receipts only — the money layer, never the health layer.
+
+DiabeticLedger is the trust/proof half of OpenDiabetic, the "anti-rug-pull":
+- Every donation, every dollar the compute earns, every give and every job is recorded as a receipt.
+- Each receipt's hash links to the one before it — change a single character anywhere and the chain breaks.
+- The page recomputes the entire chain in the visitor's own browser against the receipts. Trust no one; recompute it.
+- No protected health information (PHI) ever appears on the ledger. This is the money layer, not the health layer.
+
+## How it works
+- The single source of truth is the hive's live giving ledger; if the hive is unreachable, the page falls back to the last committed snapshot so the proof is always up.
+- The verifier re-implements the exact canonical form the ledger uses (sorted keys, no spaces, ASCII-escaped) to reproduce every SHA-256 link independently.
+- Receipt kinds: donation, asset (hosted rig), income, give, job.
+
+## Doctrine
+- Honest status only — the page states only what the data supports. No vaporware, no overclaim.
+- Privacy-first: NON-PHI receipts only.
+- "Give people what they need, not what you have." The compute earns income; the net comes back to the people.
+
+## Key facts
+- Operated by Swarm and Bee LLC (DBA Swarm & Bee AI), Florida. SAM UEI L9EXVH9L9VU6 · CAGE 20YM3 · D-U-N-S 138652395 · registered & active in SAM.gov.
+- Headquarters: Jupiter, Florida, USA.
+- Contact: build@opendiabetic.com · Phone: +1 561-532-7120 · X/Twitter: https://x.com/opendiabetics
+
+## Links
+- https://diabeticledger.com — the public, browser-verified giving ledger (this site)
+- https://opendiabetic.com — the hive: the model, what's live, ways to give
+- https://localdiabetic.com — LocalDiabetic: the member's home vault and reminders
+- https://github.com/SudoSuOps/diabetic-ledger — source + raw ledger
+
+## Important
+DiabeticLedger is a transparency/accounting surface, not medical advice, diagnosis, or treatment, and not a medical provider.
