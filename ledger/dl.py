@@ -145,7 +145,7 @@ def main():
     sub = p.add_subparsers(dest="cmd", required=True)
 
     d = sub.add_parser("donation"); d.set_defaults(fn=c_donation)
-    d.add_argument("--donor", required=True); d.add_argument("--form", required=True, choices=["cash", "compute", "device"])
+    d.add_argument("--donor", required=True); d.add_argument("--form", required=True, choices=["cash", "compute", "device", "data"])
     d.add_argument("--item", required=True); d.add_argument("--value", type=int, required=True); d.add_argument("--note", default="")
 
     s = sub.add_parser("asset"); s.set_defaults(fn=c_asset)
