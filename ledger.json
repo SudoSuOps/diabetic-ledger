@@ -1,15 +1,15 @@
 {
   "name": "DiabeticLedger",
   "tagline": "the real defendable truth",
-  "generated": "2026-06-21",
+  "generated": "2026-06-23",
   "chain_ok": true,
-  "count": 15,
+  "count": 16,
   "totals": {
-    "donated_usd": 1052920,
+    "donated_usd": 1053226,
     "earned_usd": 8820,
     "given_usd": 680,
     "jobs_paid_usd": 50,
-    "donations": 5,
+    "donations": 6,
     "assets": 2,
     "gives": 4,
     "jobs": 1
@@ -190,6 +190,18 @@
       "value_usd": 50170,
       "note": "Off the shelf to the community. Appraised $50,169.92; the entire Swarm & Bee master catalog donated to OpenDiabetic / diabeticdatasets.com, no charge no strings. Merkle anchor .grand_root_v2 9ff608f092d91a911df04cd6b847a27d004a2aa64b91a56dab82635585acb43b",
       "hash": "9e8f08ba57694a59e79980928b00bd33fa6c46c0d41f106cf882c2ed366b573a"
+    },
+    {
+      "seq": 15,
+      "prev_hash": "9e8f08ba57694a59e79980928b00bd33fa6c46c0d41f106cf882c2ed366b573a",
+      "kind": "donation",
+      "date": "2026-06-22",
+      "donor": "Swarm and Bee LLC",
+      "form": "device",
+      "item": "2x ZimaBoard 2 2-bay HDD rack tray + 120W GaN power adapter + 800W OCuLink GPU docking station (eGPU enclosure)",
+      "value_usd": 306,
+      "note": "R&D edge-compute hardware for the diabetic compute fabric: ZimaBoard 2 NAS/edge nodes (rack trays + GaN power) and an 800W OCuLink eGPU dock to add a GPU to an edge node. Items $235.66 + shipping $70.00 = $305.66. Order #37981, confirmed 2026-06-22, USPS 9235990411387000117116, expected 2026-07-02. Ship: Swarm & Bee, 1609 Berkshire Ave, Jupiter FL 33469. Contact build@swarmandbee.ai.",
+      "hash": "20da3840d4ef31f02e3a2ef4d6438930ee6d86d5f5b963a57363c16ec317681c"
     }
   ]
 }
